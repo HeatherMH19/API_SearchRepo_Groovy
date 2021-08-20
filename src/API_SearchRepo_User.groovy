@@ -8,7 +8,7 @@ class UserTest extends GroovyTestCase{
     }
 
     //Verify only public repos for the given username are returned
-    //User being searched for is my own, has two repos - one public, one private
+    //User being searched for is my own, has three repos - two public, one private
     void testSearchByUserOnlyReturnsPublicRepos() {
         def conn = tools.createConnection('?q=user:asi-hhughes')
 
