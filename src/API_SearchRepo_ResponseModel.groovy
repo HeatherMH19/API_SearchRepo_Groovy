@@ -119,8 +119,8 @@ class ModelTest extends GroovyTestCase {
 
 /*
 Github's documentation lists the following two keys in their example response, but neither exists.  Time to write a defect report!
-assert slurpedResponse.items[0].license.containsKey('html_url')
-assert slurpedResponse.items[0].containsKey('master_branch')
+assert responseJson.items[0].license.containsKey('html_url')
+assert responseJson.items[0].containsKey('master_branch')
  */
 
 }
